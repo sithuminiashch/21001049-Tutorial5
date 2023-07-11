@@ -8,8 +8,8 @@ object obj6 {
     {
 
         case x if x<=0 => 0
-        case 1 => 0
-        case 2 => 1
+        case 0=> 0
+        case 1=> 1
         case _ =>Fibonacci(n-1) + Fibonacci(n-2)
         
 
